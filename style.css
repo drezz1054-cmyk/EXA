@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #121212;
+    color: #fff;
+    padding: 15px;
+}
+h1 { text-align: center; }
+.pregunta {
+    background: #1e1e1e;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+.opcion { margin: 6px 0; }
+button {
+    width: 100%;
+    padding: 15px;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    background: #00e676;
+    color: #000;
+    cursor: pointer;
+}
+.resultado {
+    margin-top: 25px;
+    background: #1e1e1e;
+    padding: 15px;
+    border-radius: 8px;
+}
+.correcto { color: #00e676; }
+.error { color: #ff5252; }
